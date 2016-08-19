@@ -36,3 +36,39 @@ body {
 .btn-danger.btn-outline:hover {
     color: #fff;
 }
+
+.questionBox {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.indexBox {
+  padding-left: 75px;
+  padding-right: 75px;
+  margin: auto;
+}
+
+.newQuestionBox .newAnswerBox {
+  padding: 25px;
+}
+
+.questionQuote {
+  height: 150px;
+  width: 300px;
+}
+
+.newQButton {
+  text-align: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.pageTop {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 180px;
+  margin: 0px;
+}
