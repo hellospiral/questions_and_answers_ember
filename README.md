@@ -7,22 +7,22 @@ A short introduction of this app could easily go here.
 
 ### Uncompleted:
 
-Questions should have the content of the question itself, an author and additional notes.
+* Questions should have the content of the question itself, an author and additional notes.
 
-Answers should have the content of the answer and the author.
+* Answers should have the content of the answer and the author.
 
-List all questions on the homepage, with only the question and the name of the author showing.
+* Allow users to add and edit questions.
 
-Users should be able to click on a question to view additional information.
-
-Allow users to add and edit questions.
-
-Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+* Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
 
 ### Completed:
 
-Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+* Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+
+* List all questions on the homepage, with only the question and the name of the author showing.
+
+* Users should be able to click on a question to view additional information.
 
 ## Prerequisites
 
