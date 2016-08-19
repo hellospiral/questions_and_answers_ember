@@ -69,6 +69,13 @@ body {
 }
 
 .jumbotron {
-  height: 180px;
+  height: 150px;
   margin: 0px;
+  text-align: center;
+}
+
+.jumboText {
+  padding: none;
+  margin-top: none;
+  border-top: none;
 }
