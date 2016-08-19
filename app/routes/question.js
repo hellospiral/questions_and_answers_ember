@@ -26,10 +26,13 @@ export default Ember.Route.extend({
     },
 
     upVoteAnswer(answer) {
-      //console.log(answer);
       answer.set('votes', answer.get('votes') +1);
       answer.save();
-      console.log('upVoteAnswer code ran')
+    },
+
+    downVoteAnswer(answer) {
+      answer.set('votes', answer.get('votes') -1);
+      answer.save();
     }
   }
 });

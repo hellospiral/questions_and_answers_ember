@@ -2,7 +2,15 @@
   <p>{{answer.content}}</p>
   <footer>{{answer.author}}</footer>
 </blockquote>
-<button type="button" class="btn btn-success btn-outline btn-sm votesButton" {{action "upVote" answer}}>Upvote Answer!</button>
+
+<button type="button" class="btn btn-success btn-outline btn-sm votesButton" {{action "upVote" answer}}>
+  <span class="glyphicon glyphicon-thumbs-up"></span>
+</button>
+
+<button type="button" class="btn btn-danger btn-outline btn-sm votesButton" {{action "downVote" answer}}>
+  <span class="glyphicon glyphicon-thumbs-down"></span>
+</button>
+
 {{#if answer.votes}}
   <p class="votesText">
     votes: {{answer.votes}}
