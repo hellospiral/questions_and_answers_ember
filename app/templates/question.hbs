@@ -3,6 +3,13 @@
 
   <h5>by {{model.author}} </h5>
 
+  <h5>
+    Tags:
+    {{#each model.tags as |tag|}}
+      {{tag}},
+    {{/each}}
+  </h5>
+
   {{update-question question=model update="update"}}
 
   <br>
