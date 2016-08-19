@@ -1,16 +1,18 @@
 <div class="questionBox container-fluid">
-  <h2> {{model.content}} </h2>
+  <h2 class="questionHead"> {{model.content}} </h2>
 
-  <h5>by {{model.author}} </h5>
+  <h4 class="questionHead">asked by {{model.author}} </h4>
 
-  <h5>
-    Tags:
-    {{#each model.tags as |tag|}}
-      {{tag}},
-    {{/each}}
-  </h5>
+  {{#if model.tags}}
+    <h6 class="questionHead">
+      Tags:
+      {{#each model.tags as |tag|}}
+        {{tag}},
+      {{/each}}
+    </h6>
+  {{/if}}
 
-  {{update-question question=model update="update"}}
+  {{update-question  class="questionHead" question=model update="update"}}
 
   <br>
 
