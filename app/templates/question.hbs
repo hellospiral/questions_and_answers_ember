@@ -3,3 +3,15 @@
 <h5>by {{model.author}} </h5>
 
 {{update-question question=model update="update"}}
+
+<br>
+
+<h4>Answers:</h4>
+
+<ul>
+{{#each model.answers as |answer|}}
+  <li>{{answer.content}} - {{answer.author}}</li>
+{{/each}}
+</ul>
+
+{{new-answer saveAnswer2="save3" question=model}}
