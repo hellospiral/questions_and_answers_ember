@@ -1,0 +1,10 @@
+<blockquote>
+  <p>{{answer.content}}</p>
+  <footer>{{answer.author}}</footer>
+</blockquote>
+<button type="button" class="btn btn-success btn-outline btn-sm votesButton" {{action "upVote" answer}}>Upvote Answer!</button>
+{{#if answer.votes}}
+  <p class="votesText">
+    votes: {{answer.votes}}
+  </p>
+{{/if}}

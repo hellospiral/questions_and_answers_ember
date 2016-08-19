@@ -43,6 +43,7 @@ body {
 }
 
 .indexBox {
+  padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
   margin: auto;
@@ -69,13 +70,20 @@ body {
 }
 
 .jumbotron {
-  height: 150px;
+  height: 200px;
   margin: 0px;
   text-align: center;
 }
 
 .jumboText {
-  padding: none;
-  margin-top: none;
+  margin: none;
   border-top: none;
+}
+
+.votesText {
+  display: inline;
+}
+
+.votesButton {
+  display: inline;
 }

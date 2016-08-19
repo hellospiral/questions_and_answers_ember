@@ -1,16 +1,7 @@
 <div class="container">
   <header class = "jumbotron">
-    <h1 class="jumboText">Q&A</h1>
+    <h1 class="jumboText">{{#link-to 'index'}}Questions and Answers{{/link-to}}</h1>
   </header>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <ul class="nav navbar-nav">
-          <li>{{#link-to 'index'}}Home{{/link-to}}</li>
-        </ul>
-      </div>
-    </div>
-  </nav>
     {{outlet}}
   <hr>
   <footer>

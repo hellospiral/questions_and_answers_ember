@@ -23,6 +23,13 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('question', params.question);
+    },
+
+    upVoteAnswer(answer) {
+      //console.log(answer);
+      answer.set('votes', answer.get('votes') +1);
+      answer.save();
+      console.log('upVoteAnswer code ran')
     }
   }
 });
