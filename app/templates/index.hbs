@@ -1,1 +1,7 @@
 <h1> Welcome to Q&A! </h1>
+
+<ul class="list-group">
+  {{#each model as |question|}}
+    <li class="list-group-item"> {{question.content}} by {{question.author}} </li>
+  {{/each}}
+</ul>
