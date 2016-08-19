@@ -12,7 +12,10 @@
   <ul class="list-group">
   {{#each model.answers as |answer|}}
     <li class="list-group-item">
-      {{answer-tile answer=answer upVote="upVoteAnswer" downVote="downVoteAnswer"}}
+      <blockquote>
+        <p>{{answer.content}}</p>
+        <footer>{{answer.author}}</footer>
+      </blockquote>
     </li>
   {{/each}}
   </ul>

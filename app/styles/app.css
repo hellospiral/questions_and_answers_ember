@@ -70,6 +70,7 @@ body {
 }
 
 .jumbotron {
+<<<<<<< HEAD
   height: 200px;
   margin: 0px;
   text-align: center;
@@ -78,6 +79,10 @@ body {
 .jumboText {
   margin: none;
   border-top: none;
+=======
+  height: 180px;
+  margin: 0px;
+>>>>>>> parent of 976082f... minor tweaks to jumbotron style
 }
 
 .votesText {
